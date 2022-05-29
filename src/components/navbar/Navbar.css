@@ -1,0 +1,29 @@
+.head_navbar {
+  color: blanchedalmond;
+  display: flex;
+  width: 100%;
+  height: 3rem;
+  background: linear-gradient(90deg, #fd8355 0%, #f0576c 37%, #f79cbd 100%);
+}
+
+.header_navbar {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.courses_navbar {
+  display: flex;
+  right: 0;
+  margin: auto 0;
+}
+.courses_item {
+  margin: 0.4rem;
+  padding: 0 0.2rem;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+}
+
+.val_item {
+  margin: 0.4rem 0;
+}
